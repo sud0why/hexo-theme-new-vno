@@ -1,0 +1,34 @@
+menu:
+  #Archives: /archives
+  分类: /tags/
+  友链: /friendlink
+  关于我: /aboutme
+#rss: /atom.xml
+description: 
+social:
+  weibo: http://weibo.com/sud0
+  github: https://github.com/sud0why
+  qq: http://849853532
+  mail: sud0.why@gmail.com
+  #wechat: 
+  stack_overflow: 
+  facebook: 
+  twitter: 
+  google_plus: 
+
+page_comment: true
+logo: http://sudablog-10068329.file.myqcloud.com/logo.jpg
+background:
+  cover: http://sudablog-10068329.file.myqcloud.com/background-cover.jpg
+  color: cover-slate
+
+archive_date_format: MMM DD
+fancybox: true
+
+duoshuo_shortname: sudalover1
+
+cnzz_tongji: 1260564302
+#google_analytics: UA-78918255-1
+#baidu_tongji: 9cdad07c755fa23f6aced510c6760e87
+favicon: http://sudablog-10068329.file.myqcloud.com/logo.jpg
+

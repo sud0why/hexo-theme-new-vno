@@ -1,0 +1,32 @@
+<%- partial('_partial/head') %>
+<body class="home-template no-js">
+    <%- js("http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js") %>
+    <%- js("js/main.js") %>
+    <script src="http://cdn.bootcss.com/highlight.js/9.7.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <%- partial('_partial/side-panel', {}) %>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <%- body %>
+            <%- partial('_partial/comments',{}) %>
+            <%- partial('_partial/footer', {}) %>
+        </div>
+    </div>
+
+    
+
+    <%- partial('_partial/google_analytics') %>
+    <%- partial('_partial/baidu_tongji') %>
+    <%- partial('_partial/cnzz_tongji') %>
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    
+    </script>
+    
+</body>
+</html>
