@@ -8,7 +8,7 @@ description:
 social:
   weibo: http://weibo.com/sud0
   github: https://github.com/sud0why
-  qq: http://849853532
+  qq: http://wpa.qq.com/msgrd?v=3&uin=849853532&site=qq&menu=yes
   mail: sud0.why@gmail.com
   #wechat: 
   stack_overflow: 
@@ -27,8 +27,9 @@ fancybox: true
 
 duoshuo_shortname: sudalover1
 
-cnzz_tongji: 1260564302
+
+#cnzz_tongji: 1260564302
 #google_analytics: UA-78918255-1
-#baidu_tongji: 9cdad07c755fa23f6aced510c6760e87
+baidu_tongji: a37f7355ddd976b07030cbcaf56f0af5
 favicon: http://sudablog-10068329.file.myqcloud.com/logo.jpg
 
